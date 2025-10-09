@@ -14,14 +14,14 @@ const AboutSection = () => {
             <h2 className="text-hero mb-12">About Me</h2>
             <div className="space-y-6">
               <p className="text-body">
-
-                I&#39;m a Computer Science student at UBC based in Vancouver, BC.
-                My main focus is software development, especially full-stack projects that solve real-world problems.
-                I&#39;ve worked with AI and human-computer interaction, and I enjoy creating clean, scalable code. 
-                I&#39;m always exploring new technologies to improve how we build and use software.
-
-
+                I&#39;m a software engineer from Vancouver, BC.
               </p>
+              <p className="text-body">
+                I&#39;m a third year student at the University of British Columbia studying Computer Science.
+            </p>
+
+
+            
             </div>
           </div>
         </div>

@@ -148,6 +148,7 @@ body {
   }
 }
 
+
 /* Interactive Elements */
 .hover-lift {
   transition: var(--transition);
@@ -631,6 +632,10 @@ body {
 
 .morph-border {
   animation: morphBorder 10s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
 }
 
 .cursor-pointer {
