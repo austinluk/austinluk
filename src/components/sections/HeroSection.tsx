@@ -13,13 +13,13 @@ const HeroSection = () => {
               Luk
             </h1>
           </div>
-          <div className="fade-in-up" style={{ animationDelay: "0.2s" }}>
-            <p className="text-large max-w-2xl top-20">
-              Computer Science Student @ UBC
+          <div className="fade-in-up mb-32" style={{ animationDelay: "0.2s" }}>
+            <p className="text-large max-w-xl">
+              3rd Computer Science Student @ UBC
             </p>
           </div>
-          <div className="fade-in-up" style={{ animationDelay: "0.2s" }}>
-            <div className="flex gap-10 mt-24">
+          <div className="fade-in-up mt-10" style={{ animationDelay: "0.2s" }}>
+            <div className="flex gap-10 mt-10">
               {socialLinks.map((link) => (
                 <a
                   key={link.name}
@@ -28,7 +28,7 @@ const HeroSection = () => {
                   rel={
                     link.name === "Resume" ? "noopener noreferrer" : undefined
                   }
-                  className="social-link p-3 rounded-full hover:border-accent/40 hover:bg-accent/5 transition-all duration-300 group"
+                  className="social-link p-3 mt-10 rounded-full hover:border-accent/40 hover:bg-accent/5 transition-all duration-300 group"
                   aria-label={link.ariaLabel}
                 >
                   <div className="w-6 h-6 group-hover:scale-110 transition-transform duration-300">

@@ -28,11 +28,9 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({ experiences }) =>
                 <span className="period">{exp.period}</span>
                 <p>{exp.description}</p>
                 <div className="tags">
-                  {exp.technologies.map((tech) => (
-                    <span key={tech} className="tag">
-                      {tech}
-                    </span>
-                  ))}
+                  <span className="tag">
+                    {exp.technologies.join(' | ')}
+                  </span>
                 </div>
               </div>
             ))}

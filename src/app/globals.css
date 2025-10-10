@@ -458,31 +458,17 @@ body {
 }
 
 .tag {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.75rem;
-  background: var(--bg-secondary);
-  color: var(--text-primary);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  transition: all 0.2s ease;
+  font-size: 1rem;
+  color: var(--text-secondary);
 }
 
 .experience-card .tag {
-  background: var(--text-primary);
-  color: var(--bg-primary);
-  border: none;
-  font-size: 0.7rem;
-  padding: 0.2rem 0.6rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
 }
 
 .project-card .tag {
-  background: transparent;
-  border-color: var(--text-primary);
-}
-
-.project-card:hover .tag {
-  background: var(--text-primary);
-  color: var(--bg-primary);
+  color: var(--text-secondary);
 }
 
 /* Footer */

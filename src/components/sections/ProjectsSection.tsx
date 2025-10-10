@@ -18,12 +18,37 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
         {projects.map((project, index) => (
           <div
             key={project.id}
-            className={`${index % 2 === 0 ? "grid-span-7" : "grid-span-5"} ${
-              index % 2 === 1 ? "col-start-8" : ""
+            className={`${
+              index % 2 === 0
+                ? "grid-span-6 col-start-1"
+                : "grid-span-6 col-start-7"
             } mb-8`}
           >
             <div className="project-card h-full relative">
-              <div className="project-image">{project.title}</div>
+              <div className="project-image relative">
+                {project.title === "ThenStep" && (
+                  <img
+                    src="/Thenstep.png"
+                    alt="ThenStep Logo"
+                    className="absolute inset-0 w-full h-full object-cover opacity-20 z-0"
+                  />
+                )}
+                {project.title === "Freddy the Freelancer" && (
+                  <img
+                    src="/heyfreddy.png"
+                    alt="Freddy the Freelancer Logo"
+                    className="absolute inset-0 w-full h-full object-cover opacity-20 z-0"
+                  />
+                )}
+                {project.title === "Portfolio Website" && (
+                  <img
+                    src="/Portfolio.png"
+                    alt="Portfolio Logo"
+                    className="absolute inset-0 w-full h-full object-cover opacity-20 z-0"
+                  />
+                )}
+                <span className="relative z-10">{project.title}</span>
+              </div>
               <div className="project-content">
                 <div className="flex justify-between items-start">
                   <h3>{project.title}</h3>
@@ -36,11 +61,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
                 </p>
                 <p className="text-body">{project.description}</p>
                 <div className="tags">
-                  {project.tags.map((tag) => (
-                    <span key={tag} className="tag">
-                      {tag}
-                    </span>
-                  ))}
+                  <span className="tag">{project.tags.join(" | ")}</span>
                 </div>
               </div>
 
