@@ -560,10 +560,31 @@ body {
 
 .contact-button:hover .contact-icon {
   transform: scale(1.1);
-}
-
-/* Responsive Design */
+}/* Responsive Design */
 @media (max-width: 768px) {
+  /* Mobile Hero Section */
+  .section-hero .asymmetric-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .section-hero .grid-span-8 {
+    order: 2;
+  }
+  
+  .section-hero .grid-span-4 {
+    order: 1;
+  }
+  
+  .section-hero .text-display {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    margin-bottom: 1.5rem;
+  }
+  
+  .section-hero .text-large {
+    font-size: clamp(1rem, 4vw, 1.5rem);
+  }
   .asymmetric-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
