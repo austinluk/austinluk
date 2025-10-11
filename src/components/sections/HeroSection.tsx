@@ -6,20 +6,22 @@ const HeroSection = () => {
     <section id="hero" className="section section-hero">
       <div className="asymmetric-grid">
         <div className="grid-span-8 text-center md:text-left">
-          <div className="fade-in-up">
-            <h1 className="text-display mb-32">
-              Austin
-              <br />
-              Luk
-            </h1>
+          <div className="fade-in-up mt-12 mb-12">
+            <h1 className="text-display mb-32 md:mb-48">Hi! I'm Austin!</h1>
           </div>
-          <div className="fade-in-up mb-32" style={{ animationDelay: "0.2s" }}>
+          <div
+            className="fade-in-up mb-32 md:mb-48"
+            style={{ animationDelay: "0.2s" }}
+          >
             <p className="text-large max-w-xl mx-auto md:mx-0">
               3rd Computer Science Student @ UBC
             </p>
           </div>
-          <div className="fade-in-up mt-10" style={{ animationDelay: "0.2s" }}>
-            <div className="flex gap-10 mt-10 justify-center md:justify-start">
+          <div
+            className="fade-in-up mt-10 md:mt-16"
+            style={{ animationDelay: "0.2s" }}
+          >
+            <div className="flex gap-10 justify-center md:justify-start">
               {socialLinks.map((link) => (
                 <a
                   key={link.name}
@@ -56,7 +58,7 @@ const HeroSection = () => {
               <img
                 src="/austinface2.jpeg"
                 alt="Austin Luk"
-                className="w-64 h-64 md:ml-12 rounded-xl object-cover border-2 border-accent/20 shadow-2xl hover:scale-105 hover:shadow-3xl transition-all duration-500 ease-out hover:border-accent/40"
+                className="w-48 h-48 md:w-64 md:h-64 md:ml-12 rounded-xl object-cover border-2 border-accent/20 shadow-2xl hover:scale-105 hover:shadow-3xl transition-all duration-500 ease-out hover:border-accent/40"
               />
             </div>
           </div>
