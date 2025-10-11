@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="asymmetric-grid">
         <div className="grid-span-8 text-center md:text-left">
           <div className="fade-in-up mt-12 mb-12">
-            <h1 className="text-display mb-32 md:mb-48">Hi! I'm Austin!</h1>
+            <h1 className="text-display mb-32 md:mb-48">Hi! I&#39;m Austin!</h1>
           </div>
           <div
             className="fade-in-up mb-32 md:mb-48"
