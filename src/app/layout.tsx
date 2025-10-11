@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Austin Luk | CS @ UBC | Creative Developer",
+  title: "Austin Luk",
   description:
     "Austin Luk - Computer Science student at UBC, creative developer, and digital innovator. Exploring the intersection of technology, design, and human experience.",
   keywords: [
