@@ -13,7 +13,7 @@ const HeroSection = () => {
             className="fade-in-up mb-32 md:mb-48"
             style={{ animationDelay: "0.2s" }}
           >
-            <p className="text-large max-w-xl mx-auto md:mx-0">
+            <p className="text-large max-w-l mx-auto md:mx-0">
               3rd year Computer Science Student @ UBC
             </p>
           </div>
