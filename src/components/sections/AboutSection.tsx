@@ -17,7 +17,7 @@ const AboutSection = () => {
                 I&#39;m a software engineer from Vancouver, BC.
               </p>
               <p className="text-body">
-                I&#39;m a third year student at the University of British Columbia studying Computer Science.
+                I&#39;m a third year computer science student at the University of British Columbia studying Computer Science.
             </p>
 
 
