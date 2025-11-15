@@ -14,7 +14,7 @@ const HeroSection = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <p className="text-large max-w-xl mx-auto md:mx-0">
-              3rd Computer Science Student @ UBC
+              3rd year Computer Science Student @ UBC
             </p>
           </div>
           <div
