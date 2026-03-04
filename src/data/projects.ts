@@ -8,6 +8,7 @@ export const projects: Project[] = [
     description: "AI-powered virtual teaching assistant platform supporting university office hours. Optimized retrieval pipelines reduced API latency by 40%.",
     year: "2025",
     tags: ["Gemini API", "Next.js", "Node.js", "Supabase"],
+    demoUrl: "https://www.youtube.com/watch?v=Qb1FNeKKBsg&embeds_referring_euri=https%3A%2F%2Fdevpost.com%2F&source_ve_path=MjM4NTE",
     githubUrl: "https://github.com/austinluk/TaPRO"
   },
   {
