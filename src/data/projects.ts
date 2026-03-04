@@ -18,7 +18,7 @@ export const projects: Project[] = [
     year: "2024",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "OpenAI API", "Firebase"],
     demoUrl: "https://www.youtube.com/watch?v=mIPAovu09cM",
-    githubUrl: "https://github.com/yourusername/thenstep"
+    githubUrl: "https://github.com/austinluk/thenstep"
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ export const projects: Project[] = [
     year: "2025",
     tags: ["Node.js", "WhatsApp API", "Supabase", "Gemini"],
     liveUrl: "https://heyfreddy.xyz",
-    githubUrl: "https://github.com/yourusername/freddy-freelancer"
+    githubUrl: "https://github.com/austinluk/freddy-freelancer"
   },
   {
     id: 4,
@@ -37,6 +37,6 @@ export const projects: Project[] = [
     description: "Modern portfolio website showcasing projects and skills with responsive design and smooth animations.",
     year: "2025",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/yourusername/portfolio"
+    githubUrl: "https://github.com/austinluk/austinluk"
   }
 ];
