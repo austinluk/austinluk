@@ -5,8 +5,8 @@
   --fg: #111;
   --muted: #888;
   --subtle: #ccc;
-  --glow: rgba(255, 215, 80, 0.12);
-  --glow-strong: rgba(255, 205, 60, 0.18);
+  --glow: rgba(255, 215, 80, 0.05);
+  --glow-strong: rgba(255, 205, 60, 0.08);
 }
 
 [data-theme="dark"] {
@@ -14,8 +14,8 @@
   --fg: #eee;
   --muted: #666;
   --subtle: #333;
-  --glow: rgba(255, 200, 60, 0.08);
-  --glow-strong: rgba(255, 200, 60, 0.14);
+  --glow: rgba(255, 200, 60, 0.03);
+  --glow-strong: rgba(255, 200, 60, 0.06);
 }
 
 * {

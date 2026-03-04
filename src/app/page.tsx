@@ -198,7 +198,7 @@ function Portfolio() {
           </section>
 
           {/* Footer */}
-          <footer className="footer">© 2025 Austin Luk</footer>
+          <footer className="footer">© 2026 Austin Luk</footer>
         </div>
       </div>
     </>
