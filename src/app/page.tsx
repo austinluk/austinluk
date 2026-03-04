@@ -18,7 +18,12 @@ const stack = [
 ];
 
 function Toggle() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme, mounted } = useTheme();
+
+  // Avoid hydration mismatch by not rendering until mounted
+  if (!mounted) {
+    return <button className="toggle" aria-label="Toggle theme" />;
+  }
 
   return (
     <button className="toggle" onClick={toggleTheme} aria-label="Toggle theme">
@@ -193,9 +198,7 @@ function Portfolio() {
           </section>
 
           {/* Footer */}
-          <footer className="footer">
-            © {new Date().getFullYear()} Austin Luk
-          </footer>
+          <footer className="footer">© 2025 Austin Luk</footer>
         </div>
       </div>
     </>
