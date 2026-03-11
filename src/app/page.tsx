@@ -91,11 +91,14 @@ function Portfolio() {
           </p>
 
           <nav className="links fade-up fade-up-4">
-            <a href="#work" className="link">
-              Work
+            <a href="/about" className="link">
+              About
             </a>
-            <a href="#projects" className="link">
+            <a href="/projects" className="link">
               Projects
+            </a>
+            <a href="#work" className="link">
+              Experience
             </a>
             <a
               href="https://github.com/austinluk"

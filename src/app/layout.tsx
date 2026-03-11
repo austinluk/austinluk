@@ -14,28 +14,51 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Austin Luk",
+  title: {
+    default: "Austin Luk | Software Developer Portfolio",
+    template: "%s | Austin Luk",
+  },
   description:
-    "Austin Luk - Computer Science student at UBC, creative developer, and digital innovator. Exploring the intersection of technology, design, and human experience.",
+    "Austin Luk is a Computer Science student at UBC and software developer in Vancouver. Building full-stack applications, AI/ML tools, and creative software.",
   keywords: [
-    "austin luk",
-    "computer science",
-    "ubc",
-    "developer",
-    "portfolio",
-    "thenstep",
-    "creative coding",
+    "Austin Luk",
+    "Austin Luk developer",
+    "Austin Luk UBC",
+    "Austin Luk portfolio",
+    "Austin Luk software engineer",
+    "UBC computer science",
+    "Vancouver developer",
+    "full-stack developer",
   ],
   authors: [{ name: "Austin Luk" }],
-  viewport: "width=device-width, initial-scale=1",
-  robots: "index, follow",
-  openGraph: {
-    title: "Austin Luk | CS @ UBC | Creative Developer",
-    description:
-      "Computer Science student at UBC, creative developer, and digital innovator",
-    type: "website",
-    url: "https://austinluk.dev",
+  creator: "Austin Luk",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
+  openGraph: {
+    title: "Austin Luk | Software Developer Portfolio",
+    description:
+      "Austin Luk is a Computer Science student at UBC and software developer in Vancouver, BC.",
+    type: "website",
+    url: "https://austinluk.vercel.app",
+    siteName: "Austin Luk",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary",
+    title: "Austin Luk | Software Developer Portfolio",
+    description:
+      "CS student at UBC. Building full-stack applications and AI tools.",
+  },
+  alternates: {
+    canonical: "https://austinluk.vercel.app",
+  },
+  metadataBase: new URL("https://austinluk.vercel.app"),
 };
 
 export default function RootLayout({
@@ -47,20 +70,41 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Austin Luk",
+              url: "https://austinluk.vercel.app",
+              jobTitle: "Software Developer",
+              description: "Computer Science student at UBC and software developer in Vancouver, BC.",
+              sameAs: [
+                "https://github.com/austinluk",
+                "https://linkedin.com/in/austinluk",
+              ],
+              alumniOf: {
+                "@type": "CollegeOrUniversity",
+                name: "University of British Columbia",
+              },
+              knowsAbout: ["TypeScript", "Python", "React", "Next.js", "Node.js", "Machine Learning"],
+            }),
+          }}
+        />
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
                 try {
-                  var theme = localStorage.getItem('theme') || 'dark';
+                  var theme = localStorage.getItem('theme') || 'light';
                   document.documentElement.setAttribute('data-theme', theme);
                 } catch (e) {
-                  document.documentElement.setAttribute('data-theme', 'dark');
+                  document.documentElement.setAttribute('data-theme', 'light');
                 }
               })();
             `,
           }}
         />
-        <meta name="theme-color" content="#000000" />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body
