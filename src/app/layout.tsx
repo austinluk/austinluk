@@ -78,7 +78,8 @@ export default function RootLayout({
               name: "Austin Luk",
               url: "https://austinluk.vercel.app",
               jobTitle: "Software Developer",
-              description: "Computer Science student at UBC and software developer in Vancouver, BC.",
+              description:
+                "Computer Science student at UBC and software developer in Vancouver, BC.",
               sameAs: [
                 "https://github.com/austinluk",
                 "https://linkedin.com/in/austinluk",
@@ -87,7 +88,14 @@ export default function RootLayout({
                 "@type": "CollegeOrUniversity",
                 name: "University of British Columbia",
               },
-              knowsAbout: ["TypeScript", "Python", "React", "Next.js", "Node.js", "Machine Learning"],
+              knowsAbout: [
+                "TypeScript",
+                "Python",
+                "React",
+                "Next.js",
+                "Node.js",
+                "Machine Learning",
+              ],
             }),
           }}
         />
