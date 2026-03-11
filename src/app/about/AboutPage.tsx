@@ -80,10 +80,7 @@ function AboutContent() {
             <div className="fade-up fade-up-2" style={{ marginTop: "2rem" }}>
               <p className="bio" style={{ marginBottom: "1.5rem" }}>
                 I&apos;m Austin Luk, a third-year Computer Science student at
-                the University of British Columbia in Vancouver, BC. I&apos;m
-                passionate about building software that solves real problems —
-                from AI-powered teaching assistants to automation bots that
-                connect people.
+                the University of British Columbia in Vancouver, BC. 
               </p>
               <p className="bio" style={{ marginBottom: "1.5rem" }}>
                 My interests span full-stack development, machine learning, and
@@ -91,9 +88,7 @@ function AboutContent() {
                 and learning whatever&apos;s needed along the way.
               </p>
               <p className="bio" style={{ marginBottom: "1.5rem" }}>
-                Outside of coding, you&apos;ll find me playing basketball,
-                exploring Vancouver&apos;s trails, or tinkering with side
-                projects.
+                Outside of coding, you&apos;ll find me playing volleyball.
               </p>
             </div>
           </section>

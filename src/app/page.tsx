@@ -86,7 +86,7 @@ function Portfolio() {
           </div>
 
           <p className="bio fade-up fade-up-3">
-            Third year student interested in crafting software that matters.
+            Third year Computer science student.
             Currently exploring full-stack development and machine learning.
           </p>
 

@@ -1,4 +1,4 @@
-import type { MetadataRoute } from 'next';
+wimport type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://austinluk.vercel.app';
