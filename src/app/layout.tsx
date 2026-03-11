@@ -58,6 +58,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://austinluk.vercel.app",
   },
+  verification: {
+    google: "5ySpU6hCscM3MJBkG1idi21gmKYBI0Mq95NXxzB7Rz4",
+  },
   metadataBase: new URL("https://austinluk.vercel.app"),
 };
 
