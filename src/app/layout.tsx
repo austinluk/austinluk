@@ -63,6 +63,22 @@ export const metadata: Metadata = {
   verification: {
     google: "5ySpU6hCscM3MJBkG1idi21gmKYBI0Mq95NXxzB7Rz4",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    shortcut: "/favicon.svg",
+  },
+  manifest: "/site.webmanifest",
   metadataBase: new URL("https://austinluk.vercel.app"),
 };
 
@@ -94,7 +110,6 @@ export default function RootLayout({
                 name: "University of British Columbia",
               },
               knowsAbout: [
-                
                 "Python",
                 "React",
                 "TypeScript",
@@ -120,7 +135,6 @@ export default function RootLayout({
             `,
           }}
         />
-        <link rel="icon" href="/favicon.ico" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
