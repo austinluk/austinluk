@@ -19,10 +19,11 @@ export const metadata: Metadata = {
     template: "%s | Austin Luk",
   },
   description:
-    "Austin Luk is a Computer Science student at UBC and software developer in Vancouver. Building full-stack applications, AI/ML tools, and creative software.",
+    "Austin Luk is a Computer Science student at UBC and software developer in Vancouver.",
   keywords: [
     "Austin Luk",
     "Austin",
+    "Luk",
     "Austin Luk developer",
     "Austin Luk UBC",
     "Austin Luk portfolio",
@@ -93,12 +94,14 @@ export default function RootLayout({
                 name: "University of British Columbia",
               },
               knowsAbout: [
-                "TypeScript",
+                
                 "Python",
                 "React",
+                "TypeScript",
+                "JavaScript",
+                "C#",
                 "Next.js",
                 "Node.js",
-                "Machine Learning",
               ],
             }),
           }}

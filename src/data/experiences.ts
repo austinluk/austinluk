@@ -9,14 +9,14 @@ export const experiences: Experience[] = [
     technologies: ["Python", "C++", "JavaScript", "React", "Java", "Node.js"]
   },
   {
-    role: "Full-Stack Developer",
-    company: "ThenStep (Personal Project)",
+    role: "Software Engineer",
+    company: "ThenStep",
     period: "2025",
     description: "Developed AI-powered platform with natural language processing for intuitive user queries and context-aware recommendations.",
     technologies: ["Next.js", "TypeScript", "OpenAI API", "Supabase"]
   },
   {
-    role: "Backend Developer",
+    role: "Software Engineer",
     company: "Freddy the Freelancer",
     period: "2025",
     description: "Built WhatsApp automation bot for connecting clients with freelancers, featuring automated matching and in-chat project scoping.",
