@@ -15,13 +15,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Austin Luk | Software Developer Portfolio",
+    default: "Austin Luk",
     template: "%s | Austin Luk",
   },
   description:
     "Austin Luk is a Computer Science student at UBC and software developer in Vancouver. Building full-stack applications, AI/ML tools, and creative software.",
   keywords: [
     "Austin Luk",
+    "Austin",
     "Austin Luk developer",
     "Austin Luk UBC",
     "Austin Luk portfolio",
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Austin Luk | Software Developer Portfolio",
+    title: "Austin Luk",
     description:
       "Austin Luk is a Computer Science student at UBC and software developer in Vancouver, BC.",
     type: "website",
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Austin Luk | Software Developer Portfolio",
+    title: "Austin Luk",
     description:
       "CS student at UBC. Building full-stack applications and AI tools.",
   },

@@ -86,13 +86,21 @@ function Portfolio() {
           </div>
 
           <p className="bio fade-up fade-up-3">
-            Third year Computer science student.
-            Currently exploring full-stack development and machine learning.
+            Third year Computer science student. Currently exploring full-stack
+            development and machine learning.
           </p>
 
           <nav className="links fade-up fade-up-4">
             <a href="/about" className="link">
               About
+            </a>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              Resume
             </a>
             <a href="/projects" className="link">
               Projects
