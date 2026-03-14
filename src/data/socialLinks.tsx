@@ -66,7 +66,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: "Resume",
-    url: "/resume.pdf",
+    url: "/resume",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

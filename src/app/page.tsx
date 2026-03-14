@@ -95,7 +95,7 @@ function Portfolio() {
               About
             </a>
             <a
-              href="/resume.pdf"
+              href="/resume"
               target="_blank"
               rel="noopener noreferrer"
               className="link"
