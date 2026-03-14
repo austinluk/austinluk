@@ -388,24 +388,27 @@ body {
 /* Responsive */
 @media (max-width: 640px) {
   .glow-orb {
-    filter: blur(54px);
-    opacity: 0.42;
+    filter: blur(62px);
+    opacity: 0.58;
   }
 
   .glow-orb:nth-child(1) {
-    width: 460px;
-    height: 460px;
+    width: 440px;
+    height: 440px;
     animation-duration: 34s;
   }
 
   .glow-orb:nth-child(2) {
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
     animation-duration: 38s;
   }
 
   .glow-orb:nth-child(3) {
-    display: none;
+    display: block;
+    width: 220px;
+    height: 220px;
+    animation-duration: 42s;
   }
 
   .hero {
