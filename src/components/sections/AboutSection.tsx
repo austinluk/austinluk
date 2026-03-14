@@ -31,7 +31,7 @@ const AboutSection = () => {
               <div>
                 <h3 className="font-semibold mb-2">Core Skills</h3>
                 <p>
-                  Python, JavaScript/TypeScript, Java, C++, React, Next.js,
+                  Python, JavaScript/TypeScript, Java, C++, C#, React, Next.js,
                   Node.js
                 </p>
               </div>
@@ -41,7 +41,7 @@ const AboutSection = () => {
               </div>
               <div>
                 <h3 className="font-semibold mb-2">Focus Areas</h3>
-                <p>Software, AI/ML, Human-Computer Interaction</p>
+                <p>Software, AI/ML, Human-Computer Interaction, Docker, AWS</p>
               </div>
             </div>
           </div>
