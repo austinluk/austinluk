@@ -2,7 +2,7 @@ import { Experience } from '@/types';
 
 export const experiences: Experience[] = [
     {
-        role: "Incoming Software Development Engineer",
+        role: "Incoming Software Developer Intern",
         company: "SAP",
         period: "2026",
         description: "Software development engineer internship focused on building scalable enterprise solutions.",
