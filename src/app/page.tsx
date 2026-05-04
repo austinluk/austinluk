@@ -73,22 +73,11 @@ function Portfolio() {
           <div className="intro">
             <h1 className="name fade-up fade-up-1">Austin Luk</h1>
             <p className="title fade-up fade-up-2">
-              CS @{" "}
-              <a
-                href="https://ubc.ca"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                UBC
-              </a>{" "}
-              · Building things
+              incoming software developer intern at sap
+              <br />
+              3rd year cs @ ubc
             </p>
           </div>
-
-          <p className="bio fade-up fade-up-3">
-            Third year Computer science student. Currently exploring full-stack
-            development and machine learning.
-          </p>
 
           <nav className="links fade-up fade-up-4">
             <a href="/about" className="link">
