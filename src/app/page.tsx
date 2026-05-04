@@ -131,6 +131,23 @@ function Portfolio() {
         </section>
 
         <div className="content">
+          {/* Experience */}
+          <section id="work" className="section">
+            <h2 className="section-label">Experience</h2>
+            <div className="experiences">
+              {experiences.map((exp, i) => (
+                <div key={i} className="exp">
+                  <div className="exp-header">
+                    <h3 className="exp-role">{exp.role}</h3>
+                    <span className="exp-period">{exp.period}</span>
+                  </div>
+                  <p className="exp-company">{exp.company}</p>
+                  <p className="exp-desc">{exp.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
           {/* Projects */}
           <section id="projects" className="section">
             <h2 className="section-label">Selected Projects</h2>
@@ -174,23 +191,6 @@ function Portfolio() {
                     </div>
                   </div>
                   <span className="project-year">{project.year}</span>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Experience */}
-          <section id="work" className="section">
-            <h2 className="section-label">Experience</h2>
-            <div className="experiences">
-              {experiences.map((exp, i) => (
-                <div key={i} className="exp">
-                  <div className="exp-header">
-                    <h3 className="exp-role">{exp.role}</h3>
-                    <span className="exp-period">{exp.period}</span>
-                  </div>
-                  <p className="exp-company">{exp.company}</p>
-                  <p className="exp-desc">{exp.description}</p>
                 </div>
               ))}
             </div>
