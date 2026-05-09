@@ -31,13 +31,4 @@ export const projects: Project[] = [
     liveUrl: "https://heyfreddy.xyz",
     githubUrl: "https://github.com/austinluk/freddy-freelancer"
   },
-  {
-    id: 4,
-    title: "Portfolio Website",
-    subtitle: "Personal Showcase",
-    description: "Modern portfolio website showcasing projects and skills with responsive design and smooth animations.",
-    year: "2025",
-    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/austinluk/austinluk"
-  }
 ];
