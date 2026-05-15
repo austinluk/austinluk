@@ -73,7 +73,7 @@ function Portfolio() {
           <div className="intro">
             <h1 className="name fade-up fade-up-1">Austin Luk</h1>
             <p className="title fade-up fade-up-2">
-              incoming software developer intern at sap
+              software developer intern at sap
               <br />
               3rd year cs @ ubc
             </p>
