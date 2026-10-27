@@ -16,10 +16,10 @@ Currently working at:
 ---
 
 ### Featured Projects
-- ** Gather 🤝 — AI-powered social event creator that matches people by shared interests and availability, then generates personalized events at real local venues to help people make meaningful connections.
+- **[Gather](youtube.com/watch?v=V4HhpIgSB14&feature=youtu.be)** 🤝 — AI-powered social event creator that matches people by shared interests and availability, then generates personalized events at real local venues to help people make meaningful connections.
 - **[CourtIQ](https://github.com/austinluk/CourtIQ)** — Computer vision system using PyTorch and OpenCV to track volleyball players and ball trajectories, achieving 85%+ detection accuracy.
-- **TaPRO** — AI-powered teaching assistant that answers student questions using course-specific context and RAG, improving response speed by 40%.
-- **ThenStep** — Interactive route-planning application combining mapping APIs with community safety reports, meetups, and local events.
+- **[TaPRO](https://www.youtube.com/watch?v=Qb1FNeKKBsg)** — AI-powered teaching assistant that answers student questions using course-specific context and RAG, improving response speed by 40%.
+- **[ThenStep](https://www.youtube.com/watch?v=mIPAovu09cM)** — Interactive route-planning application combining mapping APIs with community safety reports, meetups, and local events.
 
 ---
 
