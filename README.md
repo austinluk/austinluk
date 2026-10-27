@@ -23,18 +23,4 @@ Currently working at:
 
 ---
 
-### Tech Stack
-
-**Languages:** Python, Java, TypeScript, JavaScript, C++, C#, SQL
-
-**Frameworks & Libraries:** React, Next.js, Node.js, Express, PyTorch, OpenCV
-
-**AI & Automation:** RAG, OpenAI API, Gemini API, Claude, MCP
-
-**Cloud & DevOps:** AWS, Docker, Kubernetes, Azure, GitHub Actions, CI/CD
-
-**Databases:** MySQL, MS SQL, MongoDB, Supabase
-
----
-
 [Portfolio](https://austinluk.vercel.app/) · [LinkedIn](https://linkedin.com/in/austinluk) · [GitHub](https://github.com/austinluk)
